@@ -1,8 +1,5 @@
 pipeline {
   agent { label 'master'}
-  tools {
-    maven 'M2'
-  }
   stages {
    stage("checkout"){
     steps {
